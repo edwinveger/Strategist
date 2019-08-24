@@ -78,7 +78,7 @@ public struct ParallelMonteCarloTreeSearch<G, P> where P: MonteCarloTreeSearchPo
         }
         var count = bases.count
         bases.withUnsafeMutableBufferPointer { buffer in
-            while bases.count > 1 {
+            while count > 1 {
                 DispatchQueue.concurrentPerform(iterations: count / 2) { i in
                     buffer[i] = buffer[i].mergeWith(buffer[i + (count / 2)])
                 }

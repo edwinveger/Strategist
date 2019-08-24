@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1010"
+   LastUpgradeVersion = "9999"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_StrategistTestSuite"
-               BuildableName = "StrategistTestSuite.xctest"
-               BlueprintName = "StrategistTestSuite"
+               BlueprintIdentifier = "Strategist::StrategistTests"
+               BuildableName = "StrategistTests.xctest"
+               BlueprintName = "StrategistTests"
                ReferencedContainer = "container:Strategist.xcodeproj">
             </BuildableReference>
          </TestableReference>

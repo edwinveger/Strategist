@@ -1,471 +1,754 @@
 // !$*UTF8*$!
 {
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		BF03DFEB1D0C7F8F00FFBAF4 /* Evaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03DFE71D0C7F8F00FFBAF4 /* Evaluation.swift */; };
-		BF03DFEC1D0C7F8F00FFBAF4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03DFE81D0C7F8F00FFBAF4 /* Extensions.swift */; };
-		BF03DFEE1D0C7F8F00FFBAF4 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03DFEA1D0C7F8F00FFBAF4 /* Score.swift */; };
-		BF03DFF01D0C7FAD00FFBAF4 /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03DFEF1D0C7FAD00FFBAF4 /* Strategy.swift */; };
-		BF03DFF21D0C7FD900FFBAF4 /* TreeSearchPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03DFF11D0C7FD900FFBAF4 /* TreeSearchPolicy.swift */; };
-		BF03DFF41D0C858700FFBAF4 /* RandomStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03DFF31D0C858700FFBAF4 /* RandomStrategy.swift */; };
-		BF03DFFA1D0C85D500FFBAF4 /* TicTacToe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03DFF61D0C85C500FFBAF4 /* TicTacToe.swift */; };
-		BF03DFFB1D0C85D500FFBAF4 /* TicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03DFF71D0C85C500FFBAF4 /* TicTacToeTests.swift */; };
-		BF03E0031D0CA5FA00FFBAF4 /* MiniMaxTreeSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03E0011D0CA5F800FFBAF4 /* MiniMaxTreeSearch.swift */; };
-		BF03E0071D0CACB400FFBAF4 /* FourtyTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03E0051D0CACB400FFBAF4 /* FourtyTwo.swift */; };
-		BF03E0081D0CACB400FFBAF4 /* FourtyTwoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03E0061D0CACB400FFBAF4 /* FourtyTwoTests.swift */; };
-		BF03E00F1D0CC5C500FFBAF4 /* NegaMaxStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03E00E1D0CC5C500FFBAF4 /* NegaMaxStrategy.swift */; };
-		BF03E0111D0CC67200FFBAF4 /* MonteCarloTreeSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03E0101D0CC67200FFBAF4 /* MonteCarloTreeSearch.swift */; };
-		BF03E0131D0CC6BC00FFBAF4 /* MonteCarloTreeSearchPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03E0121D0CC6BC00FFBAF4 /* MonteCarloTreeSearchPolicy.swift */; };
-		BF03E0151D0CC6FA00FFBAF4 /* GameTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03E0141D0CC6FA00FFBAF4 /* GameTree.swift */; };
-		_LinkFileRef_Strategist_via_StrategistTestSuite /* Strategist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Strategist" /* Strategist.framework */; };
-		__src_cc_ref_Sources/Strategist.swift /* Strategist.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/Strategist.swift /* Strategist.swift */; };
-		__src_cc_ref_Tests/Strategist/StrategistTests.swift /* StrategistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Tests/Strategist/StrategistTests.swift /* StrategistTests.swift */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		BF9C12241D04ECE400449EA6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = __RootObject_ /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "______Target_Strategist";
-			remoteInfo = Strategist;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		BF03DFE71D0C7F8F00FFBAF4 /* Evaluation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Evaluation.swift; sourceTree = "<group>"; };
-		BF03DFE81D0C7F8F00FFBAF4 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Extensions.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		BF03DFEA1D0C7F8F00FFBAF4 /* Score.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
-		BF03DFEF1D0C7FAD00FFBAF4 /* Strategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
-		BF03DFF11D0C7FD900FFBAF4 /* TreeSearchPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeSearchPolicy.swift; sourceTree = "<group>"; };
-		BF03DFF31D0C858700FFBAF4 /* RandomStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomStrategy.swift; sourceTree = "<group>"; };
-		BF03DFF61D0C85C500FFBAF4 /* TicTacToe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToe.swift; sourceTree = "<group>"; };
-		BF03DFF71D0C85C500FFBAF4 /* TicTacToeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeTests.swift; sourceTree = "<group>"; };
-		BF03E0011D0CA5F800FFBAF4 /* MiniMaxTreeSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiniMaxTreeSearch.swift; sourceTree = "<group>"; };
-		BF03E0051D0CACB400FFBAF4 /* FourtyTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourtyTwo.swift; sourceTree = "<group>"; };
-		BF03E0061D0CACB400FFBAF4 /* FourtyTwoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourtyTwoTests.swift; sourceTree = "<group>"; };
-		BF03E00E1D0CC5C500FFBAF4 /* NegaMaxStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NegaMaxStrategy.swift; sourceTree = "<group>"; };
-		BF03E0101D0CC67200FFBAF4 /* MonteCarloTreeSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = MonteCarloTreeSearch.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		BF03E0121D0CC6BC00FFBAF4 /* MonteCarloTreeSearchPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = MonteCarloTreeSearchPolicy.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		BF03E0141D0CC6FA00FFBAF4 /* GameTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTree.swift; sourceTree = "<group>"; };
-		BFB574ED1D12D2490086BE45 /* ParallelMonteCarloTreeSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallelMonteCarloTreeSearch.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Package.swift /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Sources/Strategist.swift /* Strategist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategist.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Strategist.xcodeproj/Configs/Project.xcconfig /* Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Project.xcconfig; path = Strategist.xcodeproj/Configs/Project.xcconfig; sourceTree = "<group>"; };
-		__PBXFileRef_StrategistTestSuite_Info.plist /* StrategistTestSuite_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = StrategistTestSuite_Info.plist; path = Strategist.xcodeproj/StrategistTestSuite_Info.plist; sourceTree = SOURCE_ROOT; };
-		__PBXFileRef_Strategist_Info.plist /* Strategist_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Strategist_Info.plist; path = Strategist.xcodeproj/Strategist_Info.plist; sourceTree = SOURCE_ROOT; };
-		__PBXFileRef_Tests/Strategist/StrategistTests.swift /* StrategistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategistTests.swift; sourceTree = "<group>"; };
-		"_____Product_Strategist" /* Strategist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Strategist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_StrategistTestSuite" /* StrategistTestSuite.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = StrategistTestSuite.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		"___LinkPhase_Strategist" /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		"___LinkPhase_StrategistTestSuite" /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				_LinkFileRef_Strategist_via_StrategistTestSuite /* Strategist.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		BF03DFF51D0C85C500FFBAF4 /* TicTacToe */ = {
-			isa = PBXGroup;
-			children = (
-				BF03DFF61D0C85C500FFBAF4 /* TicTacToe.swift */,
-				BF03DFF71D0C85C500FFBAF4 /* TicTacToeTests.swift */,
-			);
-			path = TicTacToe;
-			sourceTree = "<group>";
-		};
-		BF03E0041D0CACB400FFBAF4 /* FourtyTwo */ = {
-			isa = PBXGroup;
-			children = (
-				BF03E0051D0CACB400FFBAF4 /* FourtyTwo.swift */,
-				BF03E0061D0CACB400FFBAF4 /* FourtyTwoTests.swift */,
-			);
-			path = FourtyTwo;
-			sourceTree = "<group>";
-		};
-		TestProducts_ /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				"_____Product_StrategistTestSuite" /* StrategistTestSuite.xctest */,
-			);
-			name = Tests;
-			sourceTree = "<group>";
-		};
-		"___RootGroup_" = {
-			isa = PBXGroup;
-			children = (
-				__PBXFileRef_Package.swift /* Package.swift */,
-				"_____Configs_" /* Configs */,
-				"_____Sources_" /* Sources */,
-				"_______Tests_" /* Tests */,
-				"____Products_" /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		"____Products_" /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				TestProducts_ /* Tests */,
-				"_____Product_Strategist" /* Strategist.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		"_____Configs_" /* Configs */ = {
-			isa = PBXGroup;
-			children = (
-				__PBXFileRef_Strategist.xcodeproj/Configs/Project.xcconfig /* Project.xcconfig */,
-			);
-			name = Configs;
-			sourceTree = "<group>";
-		};
-		"_____Sources_" /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				"_______Group_Strategist" /* Strategist */,
-			);
-			name = Sources;
-			sourceTree = "<group>";
-		};
-		"_______Group_Strategist" /* Strategist */ = {
-			isa = PBXGroup;
-			children = (
-				__PBXFileRef_Sources/Strategist.swift /* Strategist.swift */,
-				BF03DFEF1D0C7FAD00FFBAF4 /* Strategy.swift */,
-				BF03DFE71D0C7F8F00FFBAF4 /* Evaluation.swift */,
-				BF03DFE81D0C7F8F00FFBAF4 /* Extensions.swift */,
-				BF03DFEA1D0C7F8F00FFBAF4 /* Score.swift */,
-				BF03E0141D0CC6FA00FFBAF4 /* GameTree.swift */,
-				BF03DFF11D0C7FD900FFBAF4 /* TreeSearchPolicy.swift */,
-				BF03E0121D0CC6BC00FFBAF4 /* MonteCarloTreeSearchPolicy.swift */,
-				BF03DFF31D0C858700FFBAF4 /* RandomStrategy.swift */,
-				BF03E0011D0CA5F800FFBAF4 /* MiniMaxTreeSearch.swift */,
-				BF03E00E1D0CC5C500FFBAF4 /* NegaMaxStrategy.swift */,
-				BF03E0101D0CC67200FFBAF4 /* MonteCarloTreeSearch.swift */,
-				BFB574ED1D12D2490086BE45 /* ParallelMonteCarloTreeSearch.swift */,
-				__PBXFileRef_Strategist_Info.plist /* Strategist_Info.plist */,
-			);
-			name = Strategist;
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		"_______Group_StrategistTestSuite" /* StrategistTestSuite */ = {
-			isa = PBXGroup;
-			children = (
-				BF03E0041D0CACB400FFBAF4 /* FourtyTwo */,
-				BF03DFF51D0C85C500FFBAF4 /* TicTacToe */,
-				__PBXFileRef_Tests/Strategist/StrategistTests.swift /* StrategistTests.swift */,
-				__PBXFileRef_StrategistTestSuite_Info.plist /* StrategistTestSuite_Info.plist */,
-			);
-			name = StrategistTestSuite;
-			path = Tests/Strategist;
-			sourceTree = "<group>";
-		};
-		"_______Tests_" /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				"_______Group_StrategistTestSuite" /* StrategistTestSuite */,
-			);
-			name = Tests;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		"______Target_Strategist" /* Strategist */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = "_______Confs_Strategist" /* Build configuration list for PBXNativeTarget "Strategist" */;
-			buildPhases = (
-				CompilePhase_Strategist /* Sources */,
-				"___LinkPhase_Strategist" /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Strategist;
-			productName = Strategist;
-			productReference = "_____Product_Strategist" /* Strategist.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		"______Target_StrategistTestSuite" /* StrategistTestSuite */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = "_______Confs_StrategistTestSuite" /* Build configuration list for PBXNativeTarget "StrategistTestSuite" */;
-			buildPhases = (
-				CompilePhase_StrategistTestSuite /* Sources */,
-				"___LinkPhase_StrategistTestSuite" /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				__Dependency_Strategist /* PBXTargetDependency */,
-			);
-			name = StrategistTestSuite;
-			productName = StrategistTestSuite;
-			productReference = "_____Product_StrategistTestSuite" /* StrategistTestSuite.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		__RootObject_ /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0920;
-				TargetAttributes = {
-					"______Target_Strategist" = {
-						DevelopmentTeam = RHSV5Y8MLD;
-						LastSwiftMigration = 0920;
-					};
-					"______Target_StrategistTestSuite" = {
-						DevelopmentTeam = RHSV5Y8MLD;
-						LastSwiftMigration = 0920;
-					};
-				};
-			};
-			buildConfigurationList = "___RootConfs_" /* Build configuration list for PBXProject "Strategist" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = "___RootGroup_";
-			productRefGroup = "____Products_" /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				"______Target_Strategist" /* Strategist */,
-				"______Target_StrategistTestSuite" /* StrategistTestSuite */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXSourcesBuildPhase section */
-		CompilePhase_Strategist /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				BF03DFF21D0C7FD900FFBAF4 /* TreeSearchPolicy.swift in Sources */,
-				__src_cc_ref_Sources/Strategist.swift /* Strategist.swift in Sources */,
-				BF03E0031D0CA5FA00FFBAF4 /* MiniMaxTreeSearch.swift in Sources */,
-				BF03E0111D0CC67200FFBAF4 /* MonteCarloTreeSearch.swift in Sources */,
-				BF03DFEC1D0C7F8F00FFBAF4 /* Extensions.swift in Sources */,
-				BF03DFF41D0C858700FFBAF4 /* RandomStrategy.swift in Sources */,
-				BF03DFF01D0C7FAD00FFBAF4 /* Strategy.swift in Sources */,
-				BF03DFEB1D0C7F8F00FFBAF4 /* Evaluation.swift in Sources */,
-				BF03E0151D0CC6FA00FFBAF4 /* GameTree.swift in Sources */,
-				BF03E00F1D0CC5C500FFBAF4 /* NegaMaxStrategy.swift in Sources */,
-				BF03E0131D0CC6BC00FFBAF4 /* MonteCarloTreeSearchPolicy.swift in Sources */,
-				BF03DFEE1D0C7F8F00FFBAF4 /* Score.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CompilePhase_StrategistTestSuite /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				BF03DFFA1D0C85D500FFBAF4 /* TicTacToe.swift in Sources */,
-				BF03E0081D0CACB400FFBAF4 /* FourtyTwoTests.swift in Sources */,
-				BF03E0071D0CACB400FFBAF4 /* FourtyTwo.swift in Sources */,
-				BF03DFFB1D0C85D500FFBAF4 /* TicTacToeTests.swift in Sources */,
-				__src_cc_ref_Tests/Strategist/StrategistTests.swift /* StrategistTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		__Dependency_Strategist /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "______Target_Strategist" /* Strategist */;
-			targetProxy = BF9C12241D04ECE400449EA6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin XCBuildConfiguration section */
-		_ReleaseConf_Strategist /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				DEVELOPMENT_TEAM = "";
-				ENABLE_TESTABILITY = YES;
-				INFOPLIST_FILE = Strategist.xcodeproj/Strategist_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.regexident.Strategist;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-			};
-			name = Release;
-		};
-		_ReleaseConf_StrategistTestSuite /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Strategist.xcodeproj/StrategistTestSuite_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-			};
-			name = Release;
-		};
-		"___DebugConf_Strategist" /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				DEVELOPMENT_TEAM = "";
-				ENABLE_TESTABILITY = YES;
-				INFOPLIST_FILE = Strategist.xcodeproj/Strategist_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.regexident.Strategist;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		"___DebugConf_StrategistTestSuite" /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Strategist.xcodeproj/StrategistTestSuite_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		"_____Release_" /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = __PBXFileRef_Strategist.xcodeproj/Configs/Project.xcconfig /* Project.xcconfig */;
-			buildSettings = {
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		"_______Debug_" /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = __PBXFileRef_Strategist.xcodeproj/Configs/Project.xcconfig /* Project.xcconfig */;
-			buildSettings = {
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		"___RootConfs_" /* Build configuration list for PBXProject "Strategist" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				"_______Debug_" /* Debug */,
-				"_____Release_" /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		"_______Confs_Strategist" /* Build configuration list for PBXNativeTarget "Strategist" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				"___DebugConf_Strategist" /* Debug */,
-				_ReleaseConf_Strategist /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		"_______Confs_StrategistTestSuite" /* Build configuration list for PBXNativeTarget "StrategistTestSuite" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				"___DebugConf_StrategistTestSuite" /* Debug */,
-				_ReleaseConf_StrategistTestSuite /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = __RootObject_ /* Project object */;
+   archiveVersion = "1";
+   objectVersion = "46";
+   objects = {
+      "OBJ_1" = {
+         isa = "PBXProject";
+         attributes = {
+            LastSwiftMigration = "9999";
+            LastUpgradeCheck = "9999";
+         };
+         buildConfigurationList = "OBJ_2";
+         compatibilityVersion = "Xcode 3.2";
+         developmentRegion = "English";
+         hasScannedForEncodings = "0";
+         knownRegions = (
+            "en"
+         );
+         mainGroup = "OBJ_5";
+         productRefGroup = "OBJ_29";
+         projectDirPath = ".";
+         targets = (
+            "Strategist::Strategist",
+            "Strategist::SwiftPMPackageDescription",
+            "Strategist::StrategistPackageTests::ProductTarget",
+            "Strategist::StrategistTests"
+         );
+      };
+      "OBJ_10" = {
+         isa = "PBXFileReference";
+         path = "GameTree.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_11" = {
+         isa = "PBXFileReference";
+         path = "MiniMaxTreeSearch.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_12" = {
+         isa = "PBXFileReference";
+         path = "MonteCarloTreeSearch.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_13" = {
+         isa = "PBXFileReference";
+         path = "MonteCarloTreeSearchPolicy.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_14" = {
+         isa = "PBXFileReference";
+         path = "NegaMaxStrategy.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_15" = {
+         isa = "PBXFileReference";
+         path = "ParallelMonteCarloTreeSearch.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_16" = {
+         isa = "PBXFileReference";
+         path = "RandomStrategy.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_17" = {
+         isa = "PBXFileReference";
+         path = "Score.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_18" = {
+         isa = "PBXFileReference";
+         path = "Strategist.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_19" = {
+         isa = "PBXFileReference";
+         path = "Strategy.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_2" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_3",
+            "OBJ_4"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_20" = {
+         isa = "PBXFileReference";
+         path = "TreeSearchPolicy.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_21" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_22"
+         );
+         name = "Tests";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_22" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_23",
+            "OBJ_26"
+         );
+         name = "StrategistTests";
+         path = "Tests/StrategistTests";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_23" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_24",
+            "OBJ_25"
+         );
+         name = "FourtyTwo";
+         path = "FourtyTwo";
+         sourceTree = "<group>";
+      };
+      "OBJ_24" = {
+         isa = "PBXFileReference";
+         path = "FourtyTwo.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_25" = {
+         isa = "PBXFileReference";
+         path = "FourtyTwoTests.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_26" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_27",
+            "OBJ_28"
+         );
+         name = "TicTacToe";
+         path = "TicTacToe";
+         sourceTree = "<group>";
+      };
+      "OBJ_27" = {
+         isa = "PBXFileReference";
+         path = "TicTacToe.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_28" = {
+         isa = "PBXFileReference";
+         path = "TicTacToeTests.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_29" = {
+         isa = "PBXGroup";
+         children = (
+            "Strategist::Strategist::Product",
+            "Strategist::StrategistTests::Product"
+         );
+         name = "Products";
+         path = "";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "OBJ_3" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_OBJC_ARC = "YES";
+            COMBINE_HIDPI_IMAGES = "YES";
+            COPY_PHASE_STRIP = "NO";
+            DEBUG_INFORMATION_FORMAT = "dwarf";
+            DYLIB_INSTALL_NAME_BASE = "@rpath";
+            ENABLE_NS_ASSERTIONS = "YES";
+            GCC_OPTIMIZATION_LEVEL = "0";
+            GCC_PREPROCESSOR_DEFINITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE=1",
+               "DEBUG=1"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            ONLY_ACTIVE_ARCH = "YES";
+            OTHER_SWIFT_FLAGS = (
+               "-DXcode"
+            );
+            PRODUCT_NAME = "$(TARGET_NAME)";
+            SDKROOT = "macosx";
+            SUPPORTED_PLATFORMS = (
+               "macosx",
+               "iphoneos",
+               "iphonesimulator",
+               "appletvos",
+               "appletvsimulator",
+               "watchos",
+               "watchsimulator"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE",
+               "DEBUG"
+            );
+            SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+            USE_HEADERMAP = "NO";
+         };
+         name = "Debug";
+      };
+      "OBJ_32" = {
+         isa = "PBXFileReference";
+         path = "LICENSE";
+         sourceTree = "<group>";
+      };
+      "OBJ_33" = {
+         isa = "PBXFileReference";
+         path = "Jumbotron.png";
+         sourceTree = "<group>";
+      };
+      "OBJ_34" = {
+         isa = "PBXFileReference";
+         path = "README.md";
+         sourceTree = "<group>";
+      };
+      "OBJ_35" = {
+         isa = "PBXFileReference";
+         path = "Strategist.podspec";
+         sourceTree = "<group>";
+      };
+      "OBJ_36" = {
+         isa = "PBXFileReference";
+         path = "Icon.sketch";
+         sourceTree = "<group>";
+      };
+      "OBJ_38" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_39",
+            "OBJ_40"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_39" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "Strategist.xcodeproj/Strategist_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "Strategist";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "Strategist";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_4" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_OBJC_ARC = "YES";
+            COMBINE_HIDPI_IMAGES = "YES";
+            COPY_PHASE_STRIP = "YES";
+            DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+            DYLIB_INSTALL_NAME_BASE = "@rpath";
+            GCC_OPTIMIZATION_LEVEL = "s";
+            GCC_PREPROCESSOR_DEFINITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE=1"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_SWIFT_FLAGS = (
+               "-DXcode"
+            );
+            PRODUCT_NAME = "$(TARGET_NAME)";
+            SDKROOT = "macosx";
+            SUPPORTED_PLATFORMS = (
+               "macosx",
+               "iphoneos",
+               "iphonesimulator",
+               "appletvos",
+               "appletvsimulator",
+               "watchos",
+               "watchsimulator"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE"
+            );
+            SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+            USE_HEADERMAP = "NO";
+         };
+         name = "Release";
+      };
+      "OBJ_40" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "Strategist.xcodeproj/Strategist_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "Strategist";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "Strategist";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
+      };
+      "OBJ_41" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_42",
+            "OBJ_43",
+            "OBJ_44",
+            "OBJ_45",
+            "OBJ_46",
+            "OBJ_47",
+            "OBJ_48",
+            "OBJ_49",
+            "OBJ_50",
+            "OBJ_51",
+            "OBJ_52",
+            "OBJ_53",
+            "OBJ_54"
+         );
+      };
+      "OBJ_42" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_8";
+      };
+      "OBJ_43" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_9";
+      };
+      "OBJ_44" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_10";
+      };
+      "OBJ_45" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_11";
+      };
+      "OBJ_46" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_12";
+      };
+      "OBJ_47" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_13";
+      };
+      "OBJ_48" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_14";
+      };
+      "OBJ_49" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_15";
+      };
+      "OBJ_5" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_6",
+            "OBJ_7",
+            "OBJ_21",
+            "OBJ_29",
+            "OBJ_32",
+            "OBJ_33",
+            "OBJ_34",
+            "OBJ_35",
+            "OBJ_36"
+         );
+         path = "";
+         sourceTree = "<group>";
+      };
+      "OBJ_50" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_16";
+      };
+      "OBJ_51" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_17";
+      };
+      "OBJ_52" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_18";
+      };
+      "OBJ_53" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_19";
+      };
+      "OBJ_54" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_20";
+      };
+      "OBJ_55" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      "OBJ_57" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_58",
+            "OBJ_59"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_58" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_59" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Release";
+      };
+      "OBJ_6" = {
+         isa = "PBXFileReference";
+         explicitFileType = "sourcecode.swift";
+         path = "Package.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_60" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_61"
+         );
+      };
+      "OBJ_61" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_6";
+      };
+      "OBJ_63" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_64",
+            "OBJ_65"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_64" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+         };
+         name = "Debug";
+      };
+      "OBJ_65" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+         };
+         name = "Release";
+      };
+      "OBJ_66" = {
+         isa = "PBXTargetDependency";
+         target = "Strategist::StrategistTests";
+      };
+      "OBJ_68" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_69",
+            "OBJ_70"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_69" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "Strategist.xcodeproj/StrategistTests_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "@loader_path/../Frameworks",
+               "@loader_path/Frameworks"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "StrategistTests";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_7" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_8",
+            "OBJ_9",
+            "OBJ_10",
+            "OBJ_11",
+            "OBJ_12",
+            "OBJ_13",
+            "OBJ_14",
+            "OBJ_15",
+            "OBJ_16",
+            "OBJ_17",
+            "OBJ_18",
+            "OBJ_19",
+            "OBJ_20"
+         );
+         name = "Sources";
+         path = "Sources";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_70" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "Strategist.xcodeproj/StrategistTests_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "@loader_path/../Frameworks",
+               "@loader_path/Frameworks"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "StrategistTests";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
+      };
+      "OBJ_71" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_72",
+            "OBJ_73",
+            "OBJ_74",
+            "OBJ_75"
+         );
+      };
+      "OBJ_72" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_24";
+      };
+      "OBJ_73" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_25";
+      };
+      "OBJ_74" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_27";
+      };
+      "OBJ_75" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_28";
+      };
+      "OBJ_76" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_77"
+         );
+      };
+      "OBJ_77" = {
+         isa = "PBXBuildFile";
+         fileRef = "Strategist::Strategist::Product";
+      };
+      "OBJ_78" = {
+         isa = "PBXTargetDependency";
+         target = "Strategist::Strategist";
+      };
+      "OBJ_8" = {
+         isa = "PBXFileReference";
+         path = "Evaluation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_9" = {
+         isa = "PBXFileReference";
+         path = "Extensions.swift";
+         sourceTree = "<group>";
+      };
+      "Strategist::Strategist" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_38";
+         buildPhases = (
+            "OBJ_41",
+            "OBJ_55"
+         );
+         dependencies = (
+         );
+         name = "Strategist";
+         productName = "Strategist";
+         productReference = "Strategist::Strategist::Product";
+         productType = "com.apple.product-type.framework";
+      };
+      "Strategist::Strategist::Product" = {
+         isa = "PBXFileReference";
+         path = "Strategist.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "Strategist::StrategistPackageTests::ProductTarget" = {
+         isa = "PBXAggregateTarget";
+         buildConfigurationList = "OBJ_63";
+         buildPhases = (
+         );
+         dependencies = (
+            "OBJ_66"
+         );
+         name = "StrategistPackageTests";
+         productName = "StrategistPackageTests";
+      };
+      "Strategist::StrategistTests" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_68";
+         buildPhases = (
+            "OBJ_71",
+            "OBJ_76"
+         );
+         dependencies = (
+            "OBJ_78"
+         );
+         name = "StrategistTests";
+         productName = "StrategistTests";
+         productReference = "Strategist::StrategistTests::Product";
+         productType = "com.apple.product-type.bundle.unit-test";
+      };
+      "Strategist::StrategistTests::Product" = {
+         isa = "PBXFileReference";
+         path = "StrategistTests.xctest";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "Strategist::SwiftPMPackageDescription" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_57";
+         buildPhases = (
+            "OBJ_60"
+         );
+         dependencies = (
+         );
+         name = "StrategistPackageDescription";
+         productName = "StrategistPackageDescription";
+         productType = "com.apple.product-type.framework";
+      };
+   };
+   rootObject = "OBJ_1";
 }
